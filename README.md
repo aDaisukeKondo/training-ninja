@@ -5,11 +5,14 @@
 
 ## Commands
 
-```bash
-# Build
-ninja
+### Build
 
-# Clean
-ninja -t clean
+```bash
+ninja
 ```
 
+### Clean
+
+```bash
+ninja -t clean
+```
