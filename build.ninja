@@ -1,0 +1,11 @@
+rule obj
+  command = g++ -c $in
+
+rule cxx
+  command = g++ $in
+
+build sub.o: obj sub.cpp
+build main.o: obj main.cpp
+
+build a.out: cxx main.o sub.o
+
